@@ -9,4 +9,4 @@ asdf_update_java_home() {
 }
 
 autoload -U add-zsh-hook
-add-zsh-hook precmd asdf_update_java_home
+add-zsh-hook preexec asdf_update_java_home
