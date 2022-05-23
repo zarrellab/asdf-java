@@ -2,7 +2,27 @@
 
 [![Build status](https://github.com/halcyon/asdf-java/workflows/asdf-java%20Tests/badge.svg?branch=master)](https://github.com/halcyon/asdf-java/actions?query=workflow%3A%22asdf-java+Tests%22+branch%3Amaster) [![travis ci](https://travis-ci.org/halcyon/asdf-java.svg?branch=master)](https://travis-ci.org/halcyon/asdf-java) [![Join the chat at https://gitter.im/asdf-java/community](https://badges.gitter.im/asdf-java/community.svg)](https://gitter.im/asdf-java/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[Java](https://www.java.com/en/) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
+Fork for [Java](https://www.java.com/en/) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
+
+Reason for fork: Customized the zsh script to impart less lag on the command line.
+
+Before:
+
+```console
+first_prompt_lag_ms=12.752
+first_command_lag_ms=449.399
+command_lag_ms=122.527
+input_lag_ms=7.627
+```
+
+After:
+
+```console
+first_prompt_lag_ms=13.842
+first_command_lag_ms=439.397
+command_lag_ms=12.742
+input_lag_ms=9.980
+```
 
 ## Requirements
 - [bash v5.0](https://www.gnu.org/software/bash/)
